@@ -37,6 +37,10 @@
   .header a.active {
     color: white;
   }
+
+  .active {
+    color: white;
+  }
   
   .badge {
     background-color: #cc2062;
