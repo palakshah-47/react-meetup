@@ -19,7 +19,7 @@ function MainNavigation() {
                     <li>
                     <NavLink to = '/favorites' activeClassName={classes.active}>
                         My Favourites
-                     <spnn className={classes.badge}>{favoruteContext.totalFavorites}</span>
+                     <span className={classes.badge}>{favoruteContext.totalFavorites}</span>
                     </NavLink>
                     </li>
                 </ul>
