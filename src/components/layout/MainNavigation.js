@@ -4,7 +4,11 @@ import { useContext } from 'react';
 import FavoriteContext from '../../store/favorite-context';
 
 function MainNavigation() {
+<<<<<<< HEAD
      const favoriteContext = useContext(FavoriteContext);
+=======
+     const favoruteContext = useContext(FavoriteContext);
+>>>>>>> eb6c520ceff9d78dc6f371adeecdd04d779525b8
     return(
         <header className={classes.header}>
             <div className={classes.logo}>React Meetups</div>
