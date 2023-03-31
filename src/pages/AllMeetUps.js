@@ -11,10 +11,10 @@ function AllMeetUps() {
       return response.json();
     }).then((data) => {
       const meetUps = [];
-      for(let key in data){
+      for(const key in data){
         const meetup = {
           id: key,
-          ...data
+          ...data[key]
         }
         meetUps.push(meetup);
       }

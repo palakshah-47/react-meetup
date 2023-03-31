@@ -3,9 +3,9 @@ import classes from './MeetupItem.module.css';
 
 const MeetupList = (props) => {
     return <ul className={classes.list}>
-        {props.meetups.map(meetup => 
+        {props.meetups.map((meetup, index) => 
         <MeetupItem 
-         key ={meetup.id}
+         key ={`${meetup.id} - ${index}`}
          id = {meetup.id}
          image = {meetup.image}
          title = {meetup.title}
